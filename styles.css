@@ -49,6 +49,11 @@ body {
   margin-bottom: 15px;
 }
 
+.head__info {
+  display: flex;
+  gap: 50px;
+}
+
 @media screen and (max-width: 576px) {
   .main-info,
   .contact_info_container {
