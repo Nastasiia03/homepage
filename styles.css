@@ -173,9 +173,6 @@ body {
 }
 
 
-
-
-
 .skills__text, 
 .contact__text {
   color: var(--secondary-text-color);
@@ -186,6 +183,14 @@ body {
 .resume__header {
   font-size: 20px;
   margin-bottom: 15px;
+}
+
+.project__item:not(:last-child) {
+margin-bottom: 10px;
+}
+
+.project__link {
+  color: var(--primary-text-color)
 }
 
 .github__link {
