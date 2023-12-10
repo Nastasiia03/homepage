@@ -23,11 +23,11 @@ body {
   max-width: 900px;
 }
 
-.fh {
+/* .fh {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
+} */
 
 .fv {
   display: flex;
@@ -41,6 +41,8 @@ body {
   box-shadow: 1px 1px 7px 7px #f5f5f5;
   padding: 30px 0;
   max-width: 900px;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .resume__block {
@@ -51,7 +53,7 @@ body {
 
 .head__info {
   display: flex;
-  gap: 50px;
+  gap: 30px;
 }
 
 @media screen and (max-width: 576px) {
@@ -74,10 +76,7 @@ body {
 }
 
 /* Contact info styles */
-.contact-info__header,
-.contact-info__sub-header {
-  text-align: center;
-}
+
 
 .contact-info__header {
   color: var(--primary-text-color);
