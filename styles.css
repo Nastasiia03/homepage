@@ -300,4 +300,8 @@ margin-bottom: 30px;
   color: var(--text-decoration-color)
 }
 
+.icon {
+  fill: var(--secondary-text-color);
+  margin-right: 7px;
+}
 
